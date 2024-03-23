@@ -14,6 +14,7 @@ height: 70px;
 
 .main{
     margin-top: 80px;
+    justify-content: center;
 }
 
 .main_slider
@@ -37,7 +38,7 @@ height: 70px;
 .footer
 {
     height:300px;
-    display: flex;
+   
     background: linear-gradient(to right, rgb(0, 160, 182) 0%, rgb(2, 50, 132) 100%) !important;
 }
 
