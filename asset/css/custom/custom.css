@@ -1,4 +1,47 @@
+html,
+body {
+  height: 100%
+}
+
 .my_nav{
 height: 70px;
-z-index: 299;
+}
+
+.my_nav_mobile
+{
+    background:rgb(248,249,250);
+}
+
+.main{
+    margin-top: 80px;
+}
+
+.main_slider
+{
+    display: flex;
+
+}
+
+.slider_img
+{
+    
+    max-width: 28rem;
+}
+
+.card-text ul{
+    list-style-type: disc !important;
+    padding-left:1em !important;
+    margin-left:1em;
+}
+
+.footer
+{
+    height:300px;
+    display: flex;
+    background: linear-gradient(to right, rgb(0, 160, 182) 0%, rgb(2, 50, 132) 100%) !important;
+}
+
+.footer .item
+{
+    width:30%;
 }

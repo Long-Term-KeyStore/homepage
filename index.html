@@ -13,35 +13,73 @@
 </head>
 <body>
   <!--nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded bg-body-tertiary my_nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded bg-body-tertiary fixed-top my_nav">
     <!-- Container wrapper -->
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="asset/image/dragon.png" width="35px" height="35px"/>
-      龍騰鎖匠行
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsLongterm" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand" href="#">
+        <img src="asset/image/dragon.png" width="35px" height="35px"/>
+        龍騰鎖匠行
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsLongterm" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarsLongterm">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#service_item">服預項目</a>
+      <div class="collapse navbar-collapse my_nav_mobile" id="navbarsLongterm">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#service_item">服務項目</a>
+          </li>
         </li>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#production_list">產品介紹</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#production_list">連絡我們</a>
-      </li>
-      </ul>
-    </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#production_list">產品介紹</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">連絡我們</a>
+        </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    ...
+  <!--main-->
+  <div class="container-fluid main">
+     <!--main picture-->
+    <div class="d-flex flex-sm-row flex-column justify-content-center">
+      <div class="card">
+        <img src="asset/image/front_view.jpg" class="card-img-top slider_img" alt="龍騰鎖店照片">
+      </div>
+      <!--Serivice item-->
+      <div class="card-body" id="service_item">
+        <h5 class="card-title h1">服務項目</h5>
+        <p class="card-text">
+          提供各式鎖類服務：
+          <ul>
+            <li>開鎖</li>
+            <li>換鎖</li>
+            <li>門鎖</li>
+            <li>感應扣</li>
+            <li>感應卡</li>
+            <li>打鑰匙</li>
+            <li>汽車鑰匙</li>
+            <li>機車鑰匙</li>
+            <li>電子鎖</li>
+          </ul>
+        </p>
+        <!--Serivice time and form--> 
+        <div>營業時間： 9:00 - 24:00 </div>
+        <div> 連絡電話： 0980888228</div>
+      </div>
+     
+    </div>
+    <div class="card-body h1" id="production_list">
+    產品介紹
+    </div>
+  </div>
+  
+  <!--footer-->
+  <div class="footer" id="about">
+   <div class="item">店面資訊</div>
+   <div class="item"> Line QR Code </div>
+   <div class="item">地圖</div>
   </div>
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="asset/js/jquery-3.2.1.min.js"></script>
