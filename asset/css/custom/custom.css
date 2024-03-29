@@ -92,20 +92,19 @@ height: 70px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #cccc;
 
-  &.phone
-  {
-    bottom: 40px;
-  }
-  &.line{
-    bottom: 120px;
-  }
+ 
 }
 
-.float:hover{
-	
-	background-color: blue;;
-	
+.phone
+{
+  bottom: 40px;
 }
+
+.line
+{
+  bottom: 120px;
+}
+
 
 .line-float
 {
