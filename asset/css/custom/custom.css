@@ -35,6 +35,13 @@ height: 70px;
     margin-left:1em;
 }
 
+.service_item
+{
+    font-size: 20px;
+    line-height: 1.9rem;
+    margin-top: 20px;
+}
+
 .footer
 {
     
@@ -64,12 +71,15 @@ height: 70px;
 .footer ul
 {
     list-style-type: none!important;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
     font-size: 18px;;
     color: rgb(248,249,250);
 
 
 }
+
+
+
 
 .footer .title
 {
