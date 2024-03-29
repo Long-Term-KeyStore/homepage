@@ -78,45 +78,49 @@ height: 70px;
     font-size: 28px;
 }
 
-.float-line{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:20px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-}
 
-.float-phone{
-	position:fixed;
+
+.float
+{
+  position:fixed;
 	width:60px;
 	height:60px;
-	bottom:120px;
 	right:20px;
 	background-color: #ccc;;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #cccc;
+
+  &.phone
+  {
+    bottom: 40px;
+  }
+  &.line{
+    bottom: 120px;
+  }
+}
+
+.float:hover{
+	
+	background-color: blue;;
+	
+}
+
+.line-float
+{
+  width: 36px;
+  height: 36px;
+  margin-top: 12px;
+}
+.phone-float
+{
+  width: 36px;
+  height: 36px;
+  margin-top: 12px;
 }
 
 
-.line-float{
-	margin-top:6px;
-  width:48px;
-  height:48px;
-}
-
-
-.phone-float{
-	margin-top:6px;
-  width:48px;
-  height:48px;
-}
 
 .only_mobile_show {
   display: none;
