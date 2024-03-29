@@ -37,12 +37,52 @@ height: 70px;
 
 .footer
 {
-    height:300px;
-   
+    height:350px;
+    margin-top:1.25rem;
+    padding:25px;
     background: linear-gradient(to right, rgb(0, 160, 182) 0%, rgb(2, 50, 132) 100%) !important;
 }
 
 .footer .item
 {
     width:30%;
+}
+
+.footer #map
+{
+    border-radius:15px;
+}
+
+.footer .qr_code
+{
+    border-radius:15px;
+    width: 300px;
+    height: 300px;
+}
+
+.foot ul
+{
+    list-style-type: none !important;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.line-float{
+	margin-top:22px;
+}
+
+
+.phone-float{
+	margin-top:22px;
 }

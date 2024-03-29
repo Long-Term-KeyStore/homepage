@@ -17,7 +17,7 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="asset/image/dragon.png" width="35px" height="35px"/>
+        <img src="asset/image/dragon.webp" width="35px" height="35px"/>
         龍騰鎖匠行
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsLongterm" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +30,9 @@
             <a class="nav-link" href="#service_item">服務項目</a>
           </li>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link" href="#production_list">產品介紹</a>
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link" href="#about">連絡我們</a>
         </li>
@@ -45,7 +45,7 @@
      <!--main picture-->
     <div class="d-flex flex-sm-row flex-column justify-content-center">
       <div class="card">
-        <img src="asset/image/front_view.jpg" class="card-img-top slider_img" alt="龍騰鎖店照片">
+        <img src="asset/image/front_view.webp" class="card-img-top slider_img" alt="龍騰鎖店照片">
       </div>
       <!--Serivice item-->
       <div class="card-body" id="service_item">
@@ -70,17 +70,38 @@
       </div>
      
     </div>
-    <div class="card-body h1" id="production_list">
+    <!--<div class="card-body h1" id="production_list">
     產品介紹
-    </div>
+    </div>-->
   </div>
   
   <!--footer-->
   <div class="footer d-flex flex-sm-row flex-column justify-content-center" id="about">
-   <div class="item">店面資訊</div>
-   <div class="item"> Line QR Code </div>
-   <div class="item">地圖</div>
+    <div class="item">
+      <ul>
+        <li>
+          龍騰鎖匠行
+        </li>
+        <li>
+          地址：台南市永康區中山北路47號
+        </li>
+        <li>
+          電話：0980888228
+        </li>
+        <li>
+          營業時間： 09:00-24:00
+        </li>
+        <li>
+          服務地區： 仁德區、永康區、東區、南區、中西區、安南區、安平區、歸仁區、安定區
+        </li>
+      </ul>
+
+    </div>
+   <div class="item"><img id="qr_code" class="qr_code" src="asset/image/qr_code.webp"/></div>
+   <div class="item"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9334763632555!2d120.2583662949182!3d23.02621464318115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e70cebe35c9c5%3A0x1a9997cde0ecd21d!2sNo.%2047%2C%20Zhongshan%20N%20Rd%2C%20Yongkang%20District%2C%20Tainan%20City%2C%20710!5e0!3m2!1sen!2stw!4v1711724912072!5m2!1sen!2stw" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map" title="龍勝鎖匠行地圖"></iframe></div>
   </div>
+  <!--floation buttion-->
+
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="asset/js/jquery-3.2.1.min.js"></script>
    <script src="asset/js/bootstrap.bundle.min.js" ></script>
