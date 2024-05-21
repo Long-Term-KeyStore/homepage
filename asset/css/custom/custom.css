@@ -59,6 +59,13 @@ height: 70px;
     background: linear-gradient(to right, rgb(0, 160, 182) 0%, rgb(2, 50, 132) 100%) !important;
 }
 
+.footer_s02
+{
+  margin-top:1.25rem;
+  padding:25px;
+  background:linear-gradient(120deg, #f6d365 0%, #fda085 100%) !important;
+}
+
 
 
 
@@ -166,6 +173,6 @@ height: 70px;
   height:auto;
 }
 
-}
+} 
 
 
